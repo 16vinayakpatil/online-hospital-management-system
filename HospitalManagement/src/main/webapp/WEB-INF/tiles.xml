@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="BaseLayout" template="/view/BaseLayout.jsp">
+		<put-attribute name="header" value="/view/Header.jsp" />
+		<put-attribute name="footer" value="/view/Footer.jsp" />
+	</definition>
+	
+	
+	<definition name="Welcome" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/Welcome.jsp"></put-attribute>
+	</definition>
+	
+	
+	
+	
+	<definition name="Login" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/Login.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="ForgetPassword" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/ForgetPasswordView.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="Doctor" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/Doctor.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="Receptionist" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/Receptionist.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="Patient" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/Patient.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="DoctorList" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/DoctorList.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="ReceptionistList" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/ReceptionistList.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="PatientList" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/PatinetList.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="Appointment" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/Appointment.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="AppointmentList" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/AppointmentList.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="ChangePassword" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/ChangePasswordView.jsp"></put-attribute>
+	</definition>
+	<definition name="Myprofile" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/MyProfileView.jsp"></put-attribute>
+	</definition>
+	
+
+</tiles-definitions>
